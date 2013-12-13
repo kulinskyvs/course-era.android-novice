@@ -13,11 +13,12 @@
         android:id="@+id/titleTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginBottom="10dp"
-        android:layout_marginTop="10dp"
-        android:text="@string/image_title.port"
+        android:maxWidth="150dp"
+        android:paddingRight="5dp"
+        android:text="@string/image_title.land"
         android:textSize="18sp" />
 
     <ImageView
@@ -25,11 +26,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
+        android:layout_alignParentLeft="false"
         android:layout_alignParentRight="true"
-        android:layout_below="@id/titleTextView"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/titleTextView"
         android:contentDescription="@string/simple_image_with_flower"
         android:scaleType="fitXY"
-        android:src="@drawable/super_flower" />
+        android:src="@drawable/super_bus_land" />
 
 </RelativeLayout>

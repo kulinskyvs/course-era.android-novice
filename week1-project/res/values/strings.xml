@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Week1 application</string>
+    <string name="app_name">Super flower</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">My first android application. It is awesome that I have managed to develop it !!!!</string>
+    <string name="image_title.port">This is a simple application that displays static image \n
+        in PORTRET orientation</string>
+    <string name="image_title.land">This is a simple application that displays static image \n
+        in LANDSCAPE orientation</string>
+    <string name="simple_image_with_flower">Simple image with flower</string>
 
 </resources>
