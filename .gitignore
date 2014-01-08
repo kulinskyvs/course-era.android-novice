@@ -4,6 +4,8 @@ classes/
 docs/
 deploy/
 bin/
+output/
+originals/
 .cache
 target/
 project/target/

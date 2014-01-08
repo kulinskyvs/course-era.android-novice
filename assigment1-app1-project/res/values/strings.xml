@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Gosling and Torvalds</string>
+    <string name="title.James_Gosling">James Gosling</string>
+    <string name="title.Linus_Torvalds">Linus Torvalds</string>
+
+    <string name="contentDescription.James_Gosling">The images represents a photo of James Gosling</string>
+    <string name="contentDescription.Linus_Torvalds">The images represents a photo of Linus Torvalds</string>
+
+    <string name="description.James_Gosling">
+        This canadian Computer Scientist is considered the father of the JAVA programming language, which is one of the most powerful programing languages in the world, and has had an impact on both standard computing and the internet.
+        Gosling earned his bachelor degree from the University of Calgary and began working with Sun Microsystems in 1984.
+        Gosling created several UNIX compilers as well as early electronic mail systems.
+        While earning his Ph.D. in Computer Science from Carnegie Mellon University.
+        Gosling invented Java in 1994 while working for Sun Microsystems.
+        He left Sun in 2010 and in 2011 stated that he had been hired by Google, though five months later he joined a Startup called Liquid Robotics.</string>
+
+    <string name="description.Linus_Torvalds">
+        This Finnish/American engineer graduated from the University of Helsinki, and then invented a Unix
+        operating system flavor which became Linux, one of the most widely used operating systems in the world.
+        Linux hasn’t seen much growth in the consumer market, but has been a mainstay for programmers for decades.
+        Most of the internet runs on Linux servers, the trademark of which is incredible stability,
+        and strong security. Torvalds continues his work, sponsored by the Linux foundation,
+        and his continued contributions to the Linux platform have continued to change computing for everybody,
+        albeit behind the scenes.</string>
+
+</resources>

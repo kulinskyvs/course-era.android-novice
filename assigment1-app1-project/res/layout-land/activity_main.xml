@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/titleLinusTorvaldsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"
+        android:text="@string/title.Linus_Torvalds"/>
+
+    <ImageView
+        android:id="@+id/linusTorvaldsImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:layout_below="@id/titleLinusTorvaldsTextView"
+        android:contentDescription="@string/contentDescription.Linus_Torvalds"
+        android:src="@drawable/linus_torvalds" />
+
+    <ScrollView
+        android:id="@+id/scrollViewLinusTorvalds"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/titleLinusTorvaldsTextView"
+        android:layout_toRightOf="@id/linusTorvaldsImageView"
+        android:layout_marginLeft="8dp">
+
+        <TextView
+            android:id="@+id/descriptionLinusTorvaldsTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:contentDescription="@string/description.Linus_Torvalds"
+            android:text="@string/description.Linus_Torvalds"
+             />
+    </ScrollView>
+
+</RelativeLayout>
