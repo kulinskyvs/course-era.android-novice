@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Mini diary</string>
+    <string name="introduce_yourself">Introduce yourself</string>
+    <string name="diary_message">Diary message</string>
+    <string name="save">Save</string>
+
+</resources>
