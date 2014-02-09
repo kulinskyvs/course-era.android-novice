@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Idea builder</string>
+    <string name="name">Your name</string>
+    <string name="thoughs">Any ideas to share with others??? :)</string>
+    <string name="clear">Clear</string>
+    <string name="share_with">Share with</string>
+    <string name="select_share_type">Please select sharing type in the spinner below</string>
+
+    <string-array name="share_options">
+        <item>e-mail</item>
+        <item>sms</item>
+    </string-array>
+
+    <string name="e_mail">Email</string>
+    <string name="sms">Sms</string>
+</resources>
